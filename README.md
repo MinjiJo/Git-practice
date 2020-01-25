@@ -25,3 +25,9 @@
 * commit : record. point in time. git에 어떤 변경사항이 있을 때 그 시간대의 record를 세팅하는 것.
 * github desktop의 경우 git repository를 만들 때 git파일이랑 같이 생성하는데 그 때 initial commit 이 함께 되어 있음. 
 * commit을 통해 변화되는 과정 history를 알 수 있음
+
+### Areas
+* Areas : git은 3가지 area를 가지고 있음
+ - working area(working directory) : working하고 있는 폴더
+ - staging area(commit area) : 한 파일이 commit되면 기본적으로 저장되어지는 폴더. 어떤 파일들이 commit 될건지, 어떤 것들이 다시 추가될 것인지 선택하는 폴더.
+ - repository area : 파일이 commit 되고 수정사항의 스냅샷을 가지고 있는 것. 수정사항, 시간, 누가 수정했는지 등이 저장되어 있음.
